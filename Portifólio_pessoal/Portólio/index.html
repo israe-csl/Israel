@@ -1,0 +1,239 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Meu Portfólio | Profissional</title>
+
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/index.js" defer></script>
+</head>
+<body>
+
+    <header class="cabecalho">
+        <a href="#biografia" class="logo">
+            <span>Israel Cardoso</span>
+        </a>
+
+        <!-- Botão do menu para celular -->
+        <button class="menu-mobile" id="menuMobile"
+            aria-label="Abrir menu"
+            aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="menu" id="menu" aria-label="Navegação principal">
+            <button class="aba ativa"
+                data-secao="biografia"
+                aria-selected="true">Biografia</button>
+
+            <button class="aba"
+                data-secao="qualidades"
+                aria-selected="false">Qualidades</button>
+
+            <button class="aba"
+                data-secao="habilidades"
+                aria-selected="false">Habilidades</button>
+
+            <button class="aba"
+                data-secao="trabalhos"
+                aria-selected="false">Trabalhos</button>
+
+            <button class="aba"
+                data-secao="contato"
+                aria-selected="false">Contato</button>
+        </nav>
+    </header>
+
+    <img src="img/Eu.jpg" alt="minha foto">
+
+    <main class="conteudo">
+
+        <section id="biografia" class="secao ativa">
+            <p class="subtitulo">APRESENTAÇÃO PROFISSIONAL</p>
+
+            <h1>prazer, sou <span>Israel</span></h1>
+
+            <h2>Profissional dedicado e comprometido.</h2>
+
+            <p>
+                Nome: Israel Cardoso dos Santos Lima
+            </p>
+
+            <p>
+                Idade: 15 anos
+            </p>
+
+            <p>
+                Nacimento: 07/02/2011
+            </p>
+
+            <p>
+                Estudo no período da tarde na Etec de Mogi Mirim, no curso de Desenvolvimento de Sistemas. Escolhi esse curso
+                devido ao crescimento da área e também por gostar de tecnologia e programação.
+                Busco me tornar um profissional qualificado. Antes disso, quero adquirir experiência, aprender no ambiente de
+                trabalho e desenvolver minhas habilidades para crescer profissionalmente.
+            </p>
+
+            <a href="#contato" class="botao"
+                data-ir="contato">Entre em contato</a>
+        </section>
+
+        <section id="qualidades" class="secao">
+            <p class="subtitulo">MEUS DIFERENCIAIS</p>
+            <h1>Minhas <span>Qualidades</span></h1>
+
+            <div class="grade">
+                <article class="cartao">
+                    <h3>Reponsavel</h3>
+                    <p>Caso pasem uma terefa vou fazela, e garantir que o código funcione.</p>
+                </article>
+
+                <article class="cartao">
+                    <h3>Comunicação</h3>
+                    <p>Passo informações claras e diretas para a melhor comprenção do assunto.</p>
+                </article>
+
+                <article class="cartao">
+                    <h3>Trabalho em equipe</h3>
+                    <p>Tenho respeito com colegas de trabalho e sou bom ouvinte de sujestões.</p>
+                </article>
+
+                <article class="cartao">
+                    <h3>Aprendizado contínuo</h3>
+                    <p>Busco aprender mais seja cursos ou no trabalho.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="habilidades" class="secao">
+            <p class="subtitulo">MEUS CONHECIMENTOS</p>
+
+            <h1>Minhas <span>Habilidades</span></h1>
+
+            <p class="descricao">
+                Conhecimentos que está sendo desenvido no curso
+                de Desenvolvimento de Sistemas.
+            </p>
+
+            <div class="grade-habilidades">
+
+                <article class="cartao-habilidade">
+                    <h3>HTML</h3>
+                    <p>Criação e estruturação de páginas web.</p>
+
+                    <div class="barra">
+                        <div class="progresso html"></div>
+                    </div>
+                    <span>Em aprendizado</span>
+                </article>
+
+                <article class="cartao-habilidade">
+                    <h3>CSS</h3>
+                    <p>Estilização de páginas, cores e layouts.</p>
+
+                    <div class="barra">
+                        <div class="progresso css"></div>
+                    </div>
+                    <span>Em aprendizado</span>
+                </article>
+
+                <article class="cartao-habilidade">
+                    <h3>JavaScript</h3>
+                    <p>Interatividade e lógica de programação.</p>
+
+                    <div class="barra">
+                        <div class="progresso javascript"></div>
+                    </div>
+                    <span>Em aprendizado</span>
+                </article>
+
+                <article class="cartao-habilidade">
+                    <h3>Lógica de programação</h3>
+                    <p>Raciocínio lógico para resolver problemas.</p>
+
+                    <div class="barra">
+                        <div class="progresso logica"></div>
+                    </div>
+                    <span>Em aprendizado</span>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="trabalhos" class="secao">
+            <p class="subtitulo">EXPERIÊNCIA E PROJETOS</p>
+            <h1>Meus <span>Trabalhos</span></h1>
+
+            <div class="grade">
+                <article class="cartao projeto">
+                    <span class="numero">01</span>
+                    <h3>escolar expoet</h3>
+                    <p>O trabalho da minha equipa foi uma bobina de tesla, uma capas de jerar musica </p>
+                    <a href="img/bobina.jpeg" class="link-projeto">Ver projeto</a>
+                </article>
+
+                <article class="cartao projeto">
+                    <span class="numero">02</span>
+                    <h3>palestras</h3>
+                    <p>tive palestras com espesialistas de varias areas e pude
+                        ver o quam grande é der progamador.</p>
+                    <a href="img/" class="link-projeto">Ver projeto</a>
+                </article>
+
+                <article class="cartao projeto">
+                    <span class="numero">03</span>
+                    <h3>cursos</h3>
+                    <p>realizei corsos de uso correto da IA, harduwar e programas windows.</p>
+                    <a href="img/Certificado de Conclusão.pdf" class="link-projeto">Ver projeto</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contato" class="secao">
+            <p class="subtitulo">VAMOS CONVERSAR</p>
+            <h1>Entre em <span>Contato</span></h1>
+
+            <p>
+                Estou disponível para conversar sobre oportunidades,
+                projetos e possíveis colaborações.
+            </p>
+
+            <div class="contato-info">
+                <p>
+                    <strong>E-mail:</strong>
+                    <a href="mailto:seuemail@exemplo.com">
+                        seuemail@exemplo.com
+                    </a>
+                </p>
+
+                <p>
+                    <strong>Telefone:</strong>
+                    <a href="tel:+5500000000000">
+                        (00) 00000-0000
+                    </a>
+                </p>
+
+                <p>
+                    <strong>Localização:</strong> Sua cidade, Brasil
+                </p>
+            </div>
+
+            <a class="botao" href="mailto:seuemail@exemplo.com">
+                Enviar e-mail
+            </a>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <p>
+            &copy; <span id="ano"></span> Seu Nome.
+            Todos os direitos reservados.
+        </p>
+    </footer>
+
+</body>
+</html>
